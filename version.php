@@ -26,8 +26,9 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2013082602;
+$plugin->version   = 2013082604;
 $plugin->release   = '0.1.0';
 $plugin->maturity  = MATURITY_ALPHA;
 $plugin->requires  = 2012120305; // Moodle 2.4 release and upwards
 $plugin->component = 'local_syslogger';
+$plugin->cron      = 300; // min time between crons 5 mins
