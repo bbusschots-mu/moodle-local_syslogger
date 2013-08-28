@@ -22,7 +22,7 @@ When the plugin runs for the first time it will try send all log messages in the
 database. If you are installing this plugin into a fresh Moodle instance this
 will not be a problem, but it might be an issue if you are installing the plugin
 into an existing Moodle instance. To prevent this from happening you can
-manually add an entry into the log_plugins table with the following values
+manually add an entry into the `log_plugins` table with the following values
 (replacing `[UTS_TIME_STAMP]` with the Unix Time Stamp for the earliest time
 you want logs sent from, probably the current Unix Time Stamp):
 
