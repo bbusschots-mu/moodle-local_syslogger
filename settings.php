@@ -36,7 +36,7 @@ if ($hassiteconfig) { // Needs condition or error on login page.
     // Global option to enable or disable syslogging.
     $settings->add(new admin_setting_configcheckbox('local_syslogger/enabled',
             get_string('enabled', 'local_syslogger'), get_string('enabled_desc', 'local_syslogger'),
-            1));
+            0));
 
     // The path to the logger binary.
     $settings->add(new admin_setting_configtext(
