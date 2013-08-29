@@ -73,7 +73,7 @@ function local_syslogger_cron() {
     }
 
     // Query the DB for all log entries between the two timestamps.
-    $getlogssql  = 'SELECT l.time AS time, l.ip AS ip, u.username AS username, ';
+    $getlogssql  = 'SELECT l.id AS id, l.time AS time, l.ip AS ip, u.username AS username, ';
     $getlogssql .= 'l.module AS module, l.action AS action, l.url AS url, l.info AS info ';
     $getlogssql .= 'FROM {log} l, {user} u ';
     $getlogssql .= 'WHERE l.userid=u.id AND l.time > ? AND l.time <= ? ';
