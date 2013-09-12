@@ -1,4 +1,4 @@
-moodle_local_syslogger
+moodle-local_syslogger
 ======================
 
 A Moodle plugin to duplicate Moodle log entries to Syslog using the Linux
