@@ -24,7 +24,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 $string['syslogger'] = 'Syslogger';
-$string['pluginname'] = $string['syslogger'];
+$string['pluginname'] = 'Syslogger';
 $string['enabled'] = 'Enabled';
 $string['enabled_desc'] = 'Enable log duplication to syslog using the Linux logger command';
 $string['path'] = 'logger Path';
